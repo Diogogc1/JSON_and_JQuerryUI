@@ -1,0 +1,154 @@
+/*
+    Nome: Diogo Gomes Castro
+    Turma: 3° Perído - ADS
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: #1216ff;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 99%;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section:first-of-type{
+    justify-content: center;
+    padding-left: 0.5%;
+    padding-top: 2%;
+}
+
+section:last-of-type{
+    padding-right: 0.5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+h1{
+    margin-bottom: 4%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+#form{
+    background-color: rgb(240, 248, 255);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+label{
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: 80%;
+    font-size: 1.15vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    height: 11%;
+    width: 80%;
+}
+
+button{
+    margin-top: 4vh;
+    height: 4vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 111, 0);
+    width: 35%;
+    height: 11%;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.1s linear;
+    box-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
+}
+
+button:hover{
+    cursor: pointer;
+    width: 35.4%;
+    height: 11.4%;
+    background-color: rgb(249, 108, 0);
+}
+
+h2{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 170%;
+    margin-top: 5%;
+    text-shadow: 1px 1px 2px black;
+}
+
+textarea{
+    margin-top: 2%;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    background-color: rgb(49, 49, 49);
+    color: rgb(240, 248, 255);
+    padding: 1.5% 0;
+    padding-left: 1%;
+    text-align: start;
+    /*top: 0;
+    position: sticky;*/
+}
+
+td{
+    background-color: rgb(240, 248, 255);
+    padding: 1.5% 0;
+    padding-left: 1%;
+}
+
+tr, td, th{
+    border: 1px solid black;
+}

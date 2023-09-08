@@ -1,0 +1,63 @@
+<!--
+    Nome: Diogo Gomes Castro
+    Turma: 3° Perído - ADS
+--> 
+ 
+<!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JSON + JQuerry UI</title>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="https://resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <div id="form">
+                    <h1>JSON + JQUERRY UI</h1>
+                    <label for="Nome">Nome:</label>
+                    <input type="text" id="nome" alt="Data de Nascimento">
+                
+                    <label for="Data de Nascimento">Data de Nascimento:</label>
+                    <input type="text" id="datepicker" alt="Data de Nascimento">
+                
+                    <button>Enviar</button>
+                </div>
+
+                <h2>JSON: </h2>
+                <textarea name="JSON" cols="30" rows="14"></textarea>
+                
+            </section>
+            <section>
+                <div id="scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Data de Nascimento</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <div id="dialog_nome" title="Corrija o nome">
+                <p>O campo nome não pode ser vazio e deve ter entre 3 e 50 caracteres.</p>
+            </div>
+
+            <div id="dialog_data" title="Corrija a data">
+                <p>Você deve ter mais de 18 anos, arrume sua data de nascimento.</p>
+            </div>
+
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
